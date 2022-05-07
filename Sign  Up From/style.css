@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.692) url(pic.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+header {
+  background-color: rgba(133, 40, 170, 0);
+  margin: 0px 10px;
+  border-radius: 10px;
+  overflow: auto;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 200px;
+  float: left;
+  display: inline-block;
+  padding: 17px;
+}
+
+.btn {
+  float: right;
+  padding: 20px;
+}
+
+.navigation ul li {
+  list-style: none;
+  float: left;
+  padding: 22px 35px;
+  cursor: pointer;
+  font-size: 21px;
+  color: #00ff1e;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+}
+
+.btn button {
+  padding: 8px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #ba7373;
+  transition: 0.5s;
+}
+
+.btn button:hover {
+  background-color: rgb(21, 255, 0);
+}
+
+.navigation ul li:hover {
+  color: #aaff00;
+}
+
+.continer {
+  width: 700px;
+  border: 1px solid white;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.continer h2 {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.continer input {
+  width: 90%;
+  /* margin: auto; */
+  margin-left: 35px;
+  padding: 11px;
+  margin-top: 14px;
+  border-radius: 10px;
+  border: navajowhite;
+}
+
+.continer input:last-child {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+#unice {
+  transition: 0.5s;
+}
+#unice:hover {
+  transform: scale(1.02);
+}
