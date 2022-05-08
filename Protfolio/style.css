@@ -1,0 +1,328 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  box-sizing: border-box;
+}
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+}
+.right-side {
+  display: flex;
+  flex-direction: row;
+}
+.menu-list ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.menu-list ul li {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.left-side {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.login-singin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.login-singin button {
+  margin: 10px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-singin button:hover {
+  background-color: lightgreen;
+  transform: scale(1.2);
+}
+.menu-list ul li:hover {
+  color: blueviolet;
+  transform: scale(1.2);
+}
+.webside-name {
+  transition: 0.5s;
+}
+.webside-name:hover {
+  text-shadow: 2px 1px 10px white;
+}
+#section-one {
+  background: url(backone.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main-container h1,
+.main-container h2 {
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+@keyframes example {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 50px;
+  }
+}
+.main-container h1 {
+  font-size: 50px;
+}
+.service-area,
+.title-name {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.faka {
+  width: 200px;
+  border: 1px solid #fb6b05;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#section-two {
+  background-color: rgb(179, 179, 179);
+}
+.service-section-one {
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.srivice-one {
+  width: 27%;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(187, 203, 207);
+  transition: 0.5s;
+}
+.srivice-one:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.w3-container:after,
+.w3-container:before {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0.01em 16px;
+}
+.w3-light-grey {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  cursor: pointer;
+  transform: 0.6s;
+}
+.w3-progress {
+  /* color: #fff; */
+  background-color: #15bce6;
+  border-radius: 70px;
+  margin: 15px 0px;
+  transition: 0.5s;
+}
+#porgress-bar {
+  width: 90%;
+  margin: auto;
+  padding: 50px 0px;
+}
+.w3-light-grey p {
+  font-size: 13px;
+  padding-left: 17px;
+  display: flex;
+  align-items: center;
+  color: black;
+  transition: 0.5s;
+}
+.w3-progress:hover {
+  background-color: rgb(55, 63, 63);
+  border-radius: 70px;
+  transform: scale(1.1);
+}
+.w3-progress p:hover {
+  color: white;
+}
+.porgress-area {
+  background-color: #d6d6d6;
+
+  margin: auto;
+  padding: 20px;
+  border-radius: 30px;
+}
+#about-me {
+  background: rgb(0 0 0 / 69%) url(about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.about-me-text {
+  color: white;
+  padding: 30px;
+}
+.unice {
+  color: white !important;
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  background-color: rgb(12, 11, 11);
+  color: white;
+}
+.contract {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.who-make {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.contract:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+.who-make:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 900px) and (min-width: 400px) {
+  #navigation {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    position: static;
+  }
+  .right-side {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-list ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .login-singin {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-singin button {
+    width: 85%;
+  }
+  .login-singin button:hover {
+    transform: scale(1.05);
+  }
+  .menu-list ul li:hover {
+    transform: scale(1.05);
+  }
+  .menu-list ul li {
+    margin: 5px auto;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 85%;
+  }
+  .main-container h1,
+  .main-container h2 {
+    position: static;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+  }
+  .srivice-one {
+    overflow: hidden;
+  }
+  .srivice-one h2 {
+    font-size: 20px;
+  }
+  .srivice-one p {
+    font-size: 15px;
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contract {
+    margin: 10px;
+    font-size: 12px;
+    overflow: hidden;
+  }
+  .who-make {
+    margin: 10px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 500px) {
+  .srivice-one h2 {
+    font-size: 15px;
+  }
+  .srivice-one p {
+    font-size: 10px;
+  }
+}
