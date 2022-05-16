@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook | Home</title>
+    <script
+      src="https://kit.fontawesome.com/9c7e05de29.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left-nav">
+        <img src="images/logo.png" class="logo" />
+        <ul>
+          <li><img src="images/inbox.png" /></li>
+          <li><img src="images/notification.png" /></li>
+          <li><img src="images/video.png" /></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="user-icon online" onclick="dorpdown()">
+          <img src="images/profile-pic.png" />
+        </div>
+      </div>
+      <!-- This is drop down manu / settings manu -->
+      <div class="settings-menu">
+        <div id="dark-mode-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>Elon Mask</p>
+              <a href="#">See your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feetback</p>
+              <a href="#">Help Us to emprove the disign</a>
+            </div>
+          </div>
+          <hr />
+          <div class="setting-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privecy
+              <img src="images/arrow.png" style="width: 10px"
+            /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" style="width: 10px"
+            /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accivility<img
+                src="images/arrow.png"
+                style="width: 10px"
+            /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#"
+              >Log Out<img src="images/arrow.png" style="width: 10px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!--------------- Left Side Bar Started------------------- -->
+      <div class="left-side-bar">
+        <div class="imp-links">
+          <a href="#"><img src="images/news.png" />Letest News</a>
+          <a href="#"><img src="images/friends.png" />Friends</a>
+          <a href="#"><img src="images/group.png" />Groups</a>
+          <a href="#"><img src="images/marketplace.png" />Marketplace</a>
+          <a href="#"><img src="images/watch.png" />Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shotcut-links">
+          <p>Your Shotcuts</p>
+          <a href="#"><img src="images/shortcut-1.png" />Web Developers</a>
+          <a href="#"><img src="images/shortcut-2.png" />Web Design Cource</a>
+          <a href="#"
+            ><img src="images/shortcut-3.png" />Full Stake Developmant</a
+          >
+          <a href="#"
+            ><img src="images/shortcut-4.png" />Web Developer Exparts</a
+          >
+        </div>
+      </div>
+      <!--------------- Left Side Bar Ended-And Main Contant Started------------------ -->
+      <div class="main-bar">
+        <div class="story-main">
+          <div class="story story-one">
+            <img src="images/upload.png" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story-two">
+            <img src="images/member-1.png" />
+            <p>John Doo</p>
+          </div>
+          <div class="story story-three">
+            <img src="images/member-2.png" />
+            <p>Elon Mask</p>
+          </div>
+          <div class="story story-four">
+            <img src="images/member-3.png" />
+            <p>Nasim</p>
+          </div>
+          <div class="story story-five">
+            <img src="images/member-4.png" />
+            <p>Mark Zukarbag</p>
+          </div>
+        </div>
+        <div class="right-post-container">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>Elon Mask</p>
+              <small>Public <i class="fas fa-caret-down"></i> </small>
+            </div>
+          </div>
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="What's On your Mind Elon"
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="images/live-video.png" />Live Video</a>
+              <a href="#"><img src="images/photo.png" />Photo Video</a>
+              <a href="#"><img src="images/feeling.png" />Feeling Activity</a>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>Elon Mask</p>
+                <span>May 6 2022,01:28 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@Redwan Ahmed Ridoy </span>and keep follow me for
+            more <a href="#">#RedwanAhmed</a><a href="#">#SocialMidia</a>
+          </p>
+          <img src="images/feed-image-1.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like-blue.png" />120</div>
+              <div><img src="images/comments.png" />20</div>
+              <div><img src="images/share.png" />100</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/profile-pic.png" /><i
+                class="fas fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/photo1.png" />
+              <div>
+                <p>Robart Broos</p>
+                <span>Jun 5 2022,01:815 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@jacks Ahmed </span>and keep follow me for more
+            <a href="#">#jacksahmed</a><a href="#">#femousme</a>
+          </p>
+          <img src="images/feed-image-2.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like.png" />100</div>
+              <div><img src="images/comments.png" />5</div>
+              <div><img src="images/share.png" />3</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/photo1.png" /><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/photo2.png" />
+              <div>
+                <p>Robart Broos</p>
+                <span>Jun 5 2022,01:815 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@jacks Ahmed </span>and keep follow me for more
+            <a href="#">#jacksahmed</a><a href="#">#femousme</a>
+          </p>
+          <img src="images/feed-image-3.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like.png" />50</div>
+              <div><img src="images/comments.png" />3</div>
+              <div><img src="images/share.png" />5</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/photo2.png" /><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/photo3.png" />
+              <div>
+                <p>Robart Broos</p>
+                <span>Jun 5 2022,01:815 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@jacks Ahmed </span>and keep follow me for more
+            <a href="#">#jacksahmed</a><a href="#">#femousme</a>
+          </p>
+          <img src="images/feed-image-4.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like-blue.png" />500</div>
+              <div><img src="images/comments.png" />30</div>
+              <div><img src="images/share.png" />50</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/photo3.png" /><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/photo3.png" />
+              <div>
+                <p>Robart Broos</p>
+                <span>Jun 5 2022,01:815 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@jacks Ahmed </span>and keep follow me for more
+            <a href="#">#jacksahmed</a><a href="#">#femousme</a>
+          </p>
+          <img src="images/feed-image-5.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like.png" />1000</div>
+              <div><img src="images/comments.png" />200</div>
+              <div><img src="images/share.png" />300</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/photo4.png" /><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>Elon Mask</p>
+                <span>May 6 2022,01:28 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@Redwan Ahmed Ridoy </span>and keep follow me for
+            more <a href="#">#RedwanAhmed</a><a href="#">#SocialMidia</a>
+          </p>
+          <img src="images/feed-image-1.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like-blue.png" />120</div>
+              <div><img src="images/comments.png" />20</div>
+              <div><img src="images/share.png" />100</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/profile-pic.png" /><i
+                class="fas fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/photo1.png" />
+              <div>
+                <p>Robart Broos</p>
+                <span>Jun 5 2022,01:815 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@jacks Ahmed </span>and keep follow me for more
+            <a href="#">#jacksahmed</a><a href="#">#femousme</a>
+          </p>
+          <img src="images/feed-image-2.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like.png" />100</div>
+              <div><img src="images/comments.png" />5</div>
+              <div><img src="images/share.png" />3</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/photo1.png" /><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/photo3.png" />
+              <div>
+                <p>Robart Broos</p>
+                <span>Jun 5 2022,01:815 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@jacks Ahmed </span>and keep follow me for more
+            <a href="#">#jacksahmed</a><a href="#">#femousme</a>
+          </p>
+          <img src="images/feed-image-4.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like-blue.png" />500</div>
+              <div><img src="images/comments.png" />30</div>
+              <div><img src="images/share.png" />50</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/photo3.png" /><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/photo3.png" />
+              <div>
+                <p>Robart Broos</p>
+                <span>Jun 5 2022,01:815 AM</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <p class="post-text">
+            Support Me <span>@jacks Ahmed </span>and keep follow me for more
+            <a href="#">#jacksahmed</a><a href="#">#femousme</a>
+          </p>
+          <img src="images/feed-image-4.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like-blue.png" />500</div>
+              <div><img src="images/comments.png" />30</div>
+              <div><img src="images/share.png" />50</div>
+            </div>
+            <div class="post-porfile-icon">
+              <img src="images/photo3.png" /><i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="load-more-button">Load More</button>
+      </div>
+      <!--------------- Main Contant Ended--And Right Side Bar Started----------------- -->
+      <div class="right-side-bar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="events">
+          <div class="left-event">
+            <h3>10</h3>
+            <span>May</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Midia</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Rajshahi University</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="events">
+          <div class="left-event">
+            <h3>21</h3>
+            <span>Decembar</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Midia</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Rajshahi University</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+          <h4>Advatizemant</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="images/advertisement.png" class="side-bar-adds" />
+        <div class="sidebar-title">
+          <h4>Conversations</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-1.png" />
+          </div>
+          <p>John Doo</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-2.png" />
+          </div>
+          <p>Jacks Redwan</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-3.png" />
+          </div>
+          <p>Rechi doo</p>
+        </div>
+      </div>
+      <!--------------- Right Side Bar Ended------------------- -->
+    </div>
+    <div class="footer">
+      <p>Copy Right 2022 &copy; @Redwan Ahmed</p>
+    </div>
+    <script src="porgram.js"></script>
+  </body>
+</html>
